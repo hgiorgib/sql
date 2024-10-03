@@ -76,3 +76,13 @@ Please do not pick the exact same tables that I have already diagramed. For exam
 	-  ![01_farmers_market_conceptual_model.png](./images/01_farmers_market_conceptual_model.png)
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
+
+## HW-1: Logical Data Model
+
+The tables chosen were product and customer_purchases.
+
+The following is the logical data model:
+
+![HW1_logical_data_model.jpg](./images/HW1_logical_data_model.jpg)
+
+- product (5 columns) shares a One-to-Many relationship with customer_purchases (7 columns) on product_id
